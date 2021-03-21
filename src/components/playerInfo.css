@@ -1,0 +1,35 @@
+.playername {
+  margin-bottom: 0px;
+  text-shadow: 5px 5px 2.5px #000;
+  font-size: 30px;
+}
+
+.playerbio {
+  font-size: 22px;
+  margin-bottom: 0px;
+  text-shadow: 3px 3px 1px #000;
+}
+
+.horizontalbreak {
+  color: white;
+  border: 1px solid rgb(255, 224, 87);
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .playername {
+    font-size: 40px;
+  }
+  .playerbio {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .playername {
+    font-size: 80px;
+  }
+  .playerbio {
+    font-size: 30px;
+  }
+}

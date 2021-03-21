@@ -1,0 +1,46 @@
+.avatar-container {
+  width: 100%;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.socialicons {
+  width: 100%;
+  padding: 0% 5%;
+}
+
+.socialicon {
+  font-size: 25px;
+  color: rgb(250, 95, 255);
+}
+
+.socialicon:hover {
+  color: rgb(250, 95, 255);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+  }
+
+  .avatar-container {
+    padding-top: 1.25rem;
+  }
+
+  .socialicons {
+    padding: 0% 15%;
+  }
+
+  .socialicon {
+    font-size: 30px;
+  }
+}

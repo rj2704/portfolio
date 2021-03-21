@@ -1,0 +1,30 @@
+.menubox {
+  background: rgba(0, 0, 0, 0.8);
+  background-image: radial-gradient(
+    ellipse at 50px 10px,
+    rgba(100, 100, 100, 0.1) 0%,
+    rgba(100, 100, 100, 0.1) 1%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border: 2px solid rgb(250, 95, 255, 0.75);
+  border-radius: 1%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 25px;
+  padding: 15px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(88, 202, 255);
+}
+
+.navbreak {
+  width: 60%;
+  border: 1px solid rgb(255, 224, 87);
+}

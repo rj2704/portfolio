@@ -1,0 +1,31 @@
+.brief-item {
+  padding: 8px;
+}
+
+.raleway {
+  font-family: "Raleway";
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 15%;
+}
+
+.biopicture {
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.smallheader {
+  font-size: 17px;
+}

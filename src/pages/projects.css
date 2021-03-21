@@ -1,0 +1,27 @@
+.btn-retro {
+  color: black;
+  background-color: rgb(255, 175, 25);
+  border: 2px solid black;
+  height: 60px;
+}
+
+.btn-retro:hover {
+  color: rgb(255, 175, 25);
+  background-color: black;
+  border: 2px solid rgb(255, 175, 25);
+}
+
+.dropdown-menu {
+  background-color: rgb(255, 175, 25);
+  width: 100%;
+}
+
+.dropdown-item,
+.dropdown-item:hover {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.textlarge {
+  font-size: 20px;
+}

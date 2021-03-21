@@ -1,0 +1,23 @@
+.starttext {
+  font-size: 40px;
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+  color: rgb(255, 175, 25);
+}
+.starttext:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.startimage,
+.startimage:hover {
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(250, 95, 255, 0.75);
+  box-shadow: 1rem 1rem 0.5rem 0.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 1%;
+  cursor: pointer;
+}

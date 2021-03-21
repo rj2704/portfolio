@@ -1,0 +1,22 @@
+.socialbox {
+  background: rgba(0, 0, 0, 0.8);
+  background-image: radial-gradient(
+    ellipse at 50px 10px,
+    rgba(100, 100, 100, 0.1) 0%,
+    rgba(100, 100, 100, 0.1) 1%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border: 2px solid rgb(250, 95, 255, 0.75);
+  border-radius: 1%;
+  padding: 20px;
+  margin: 0px 20px;
+  height: 350px;
+}
+
+.socialicon-large,
+.socialicon-large:hover {
+  font-size: 45px;
+  padding: 0px 13px;
+  color: rgb(250, 95, 255);
+  text-decoration: none;
+}

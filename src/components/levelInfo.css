@@ -1,0 +1,22 @@
+.gameinfo {
+  background: rgba(0, 0, 0, 0.9);
+  background-image: radial-gradient(
+    ellipse at 50px 10px,
+    rgba(100, 100, 100, 0.1) 0%,
+    rgba(100, 100, 100, 0.1) 1%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border: 2px solid rgb(250, 95, 255, 0.25);
+  border-radius: 1%;
+  margin: 10px;
+}
+
+.return {
+  font-size: 18px;
+}
+
+.return:hover {
+  color: rgb(255, 175, 25);
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.project-image {
+  border: 1px solid rgba(255, 175, 25, 0.5);
+  border-radius: 1%;
+}
+
+.btn-site {
+  color: rgb(255, 175, 25);
+  font-weight: bold;
+  background-color: black;
+  border: 2px solid rgb(255, 175, 25);
+  border-radius: 5%;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-site:hover {
+  color: black;
+  background-color: rgb(255, 175, 25);
+}
+
+.user_details > h5 {
+  font-size: 1rem;
+}
